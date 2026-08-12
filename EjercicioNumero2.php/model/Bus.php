@@ -66,7 +66,7 @@ class Bus {
     }
 
     public function mostrarInfo() {
-        return "Placa: {$this->placa} <br>" .
+        return "-----Placa: {$this->placa} <br>" .
                "Capacidad de Pasajeros: {$this->capacidadPasajeros} <br>" .
                "Precio del Pasaje: {$this->preciosPasaje} <br>" .
                "Pasajeros Actuales: {$this->pasajerosActuales} <br>" .

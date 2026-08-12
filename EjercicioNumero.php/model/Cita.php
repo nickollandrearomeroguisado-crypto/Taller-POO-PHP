@@ -21,15 +21,15 @@ class Cita {
         // return $this->tipo;
 
         if ($this->tipo == 1) {
-            return "Especialista";
+            return "General";
         } else if ($this->tipo == 2) {
-            return "Especialista";
+            return "General";
         } else if ($this->tipo == 3) {
-            return "Especialista";
+            return "General";
         } else if ($this->tipo == 4) {
-            return "General";
+            return "Especialista";
         } else if ($this-> tipo == 5) {
-            return "General";
+            return "Especialista";
         }
 
         return $this->tipo;

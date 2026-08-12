@@ -30,9 +30,9 @@ class Persona extends Cliente {
         if ($this->edad < 18) {
             return "{$this->nombreCliente}, {$this->edad}";
         } else if ($this->edad < 40) {
-            return $nombreCliente, $edad;
+            return "{$this->nombreCliente}, {$this->edad}";
         } else if ($this->edad > 40){
-            return $nombreCliente, $edad;
+            return "{$this->nombreCliente}, {$this->edad}";
         }
         
     }

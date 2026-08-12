@@ -2,7 +2,7 @@
 
 class Banco {
     protected string $nombre;
-    protected array $clientes;
+    protected array $clientes= [];
     protected int $numeroDeClientes;
 
     public function __construct($nombre, $clientes, $numeroDeClientes) {
@@ -24,7 +24,7 @@ class Banco {
     }
 
     public function asClientes(Cliente $clientes) {
-        $this->clientes = $clientes;
+        $this->clientes[] = $clientes;
     }
 
     public function obtNumClientes() {
@@ -36,11 +36,11 @@ class Banco {
     }
 
     public function obtClientes() {
-        return $this->clientes = $clientes;
+        return $this->clientes[] = $clientes;
     }
 
     public function mostrarInfo() {
-        return "Todos los nombres de los clientes: " . implode(", ", $this->clientes) . " <br>";
+        return "-----Todos los nombres de los clientes: " . implode(", ", $this->clientes) ." <br>";
     }    
 
     // public function mostrarInfo() {
