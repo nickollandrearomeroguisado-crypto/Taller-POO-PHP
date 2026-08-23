@@ -1,0 +1,18 @@
+{
+    "name": "aprendiz/ejercicio-numero.php",
+    "autoload": {
+        "psr-4": {
+            "Aprendiz\\EjercicioNumeroPhp\\": "src/",
+            "Controller\\": "src/Controller",
+            "Model\\": "src/Model",
+            "View\\": "src/View"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nickoll",
+            "email": "nickollandrearomeroguisado@gmail.com"
+        }
+    ],
+    "require": {}
+}
